@@ -49,4 +49,14 @@
     <servlet-name>ComplaintServlet</servlet-name>
     <url-pattern>/ComplaintServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>SignInServlet</display-name>
+    <servlet-name>SignInServlet</servlet-name>
+    <servlet-class>com.novell.services.SignInServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>SignInServlet</servlet-name>
+    <url-pattern>/SignInServlet</url-pattern>
+  </servlet-mapping>
 </web-app>
